@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D9075F2C2A1A8C6200D847E3 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9075F2A2A1A8C6200D847E3 /* Main.xcdatamodeld */; };
+		D9075F2E2A1A8F4500D847E3 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9075F2D2A1A8F4500D847E3 /* DataController.swift */; };
 		D950FF6F2A09EA07007814B2 /* BugSmashApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D950FF6E2A09EA07007814B2 /* BugSmashApp.swift */; };
 		D950FF712A09EA07007814B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D950FF702A09EA07007814B2 /* ContentView.swift */; };
 		D950FF732A09EA08007814B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D950FF722A09EA08007814B2 /* Assets.xcassets */; };
@@ -14,6 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D9075F2B2A1A8C6200D847E3 /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
+		D9075F2D2A1A8F4500D847E3 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		D9075F2F2A1ABE1C00D847E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D950FF6B2A09EA07007814B2 /* BugSmash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BugSmash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D950FF6E2A09EA07007814B2 /* BugSmashApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BugSmashApp.swift; sourceTree = "<group>"; };
 		D950FF702A09EA07007814B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,8 +57,11 @@
 		D950FF6D2A09EA07007814B2 /* BugSmash */ = {
 			isa = PBXGroup;
 			children = (
+				D9075F2F2A1ABE1C00D847E3 /* Info.plist */,
 				D950FF6E2A09EA07007814B2 /* BugSmashApp.swift */,
 				D950FF702A09EA07007814B2 /* ContentView.swift */,
+				D9075F2D2A1A8F4500D847E3 /* DataController.swift */,
+				D9075F2A2A1A8C6200D847E3 /* Main.xcdatamodeld */,
 				D950FF722A09EA08007814B2 /* Assets.xcassets */,
 				D950FF742A09EA08007814B2 /* BugSmash.entitlements */,
 				D950FF752A09EA08007814B2 /* Preview Content */,
@@ -139,6 +147,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9075F2C2A1A8C6200D847E3 /* Main.xcdatamodeld in Sources */,
+				D9075F2E2A1A8F4500D847E3 /* DataController.swift in Sources */,
 				D950FF712A09EA07007814B2 /* ContentView.swift in Sources */,
 				D950FF6F2A09EA07007814B2 /* BugSmashApp.swift in Sources */,
 			);
@@ -269,6 +279,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BugSmash/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -307,6 +318,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BugSmash/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -354,6 +366,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D9075F2A2A1A8C6200D847E3 /* Main.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D9075F2B2A1A8C6200D847E3 /* Main.xcdatamodel */,
+			);
+			currentVersion = D9075F2B2A1A8C6200D847E3 /* Main.xcdatamodel */;
+			path = Main.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D950FF632A09EA07007814B2 /* Project object */;
 }
