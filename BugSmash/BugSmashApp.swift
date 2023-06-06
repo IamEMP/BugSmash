@@ -10,6 +10,7 @@ import SwiftUI
 @main
 struct BugSmashApp: App {
     @StateObject var dataController = DataController()
+    
     var body: some Scene {
         WindowGroup {
             NavigationSplitView {

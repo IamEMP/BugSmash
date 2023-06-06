@@ -16,6 +16,8 @@
 		D950FF712A09EA07007814B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D950FF702A09EA07007814B2 /* ContentView.swift */; };
 		D950FF732A09EA08007814B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D950FF722A09EA08007814B2 /* Assets.xcassets */; };
 		D950FF772A09EA08007814B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D950FF762A09EA08007814B2 /* Preview Assets.xcassets */; };
+		D97579762A2F70F500067C5C /* Issue-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97579752A2F70F500067C5C /* Issue-CoreDataHelpers.swift */; };
+		D97579782A2F735800067C5C /* Tag-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97579772A2F735800067C5C /* Tag-CoreDataHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		D950FF722A09EA08007814B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D950FF742A09EA08007814B2 /* BugSmash.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BugSmash.entitlements; sourceTree = "<group>"; };
 		D950FF762A09EA08007814B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D97579752A2F70F500067C5C /* Issue-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Issue-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		D97579772A2F735800067C5C /* Tag-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tag-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,8 @@
 				D93E60E02A2D3E3200DDBCD7 /* SidebarView.swift */,
 				D93E60E22A2D3E6B00DDBCD7 /* DetailView.swift */,
 				D9075F2D2A1A8F4500D847E3 /* DataController.swift */,
+				D97579752A2F70F500067C5C /* Issue-CoreDataHelpers.swift */,
+				D97579772A2F735800067C5C /* Tag-CoreDataHelpers.swift */,
 				D9075F2A2A1A8C6200D847E3 /* Main.xcdatamodeld */,
 				D950FF722A09EA08007814B2 /* Assets.xcassets */,
 				D950FF742A09EA08007814B2 /* BugSmash.entitlements */,
@@ -157,7 +163,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9075F2C2A1A8C6200D847E3 /* Main.xcdatamodeld in Sources */,
+				D97579782A2F735800067C5C /* Tag-CoreDataHelpers.swift in Sources */,
 				D93E60E32A2D3E6B00DDBCD7 /* DetailView.swift in Sources */,
+				D97579762A2F70F500067C5C /* Issue-CoreDataHelpers.swift in Sources */,
 				D9075F2E2A1A8F4500D847E3 /* DataController.swift in Sources */,
 				D93E60E52A2D3F9E00DDBCD7 /* FIlter.swift in Sources */,
 				D93E60E12A2D3E3200DDBCD7 /* SidebarView.swift in Sources */,
