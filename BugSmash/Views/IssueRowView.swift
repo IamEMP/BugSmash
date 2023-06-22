@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct IssueRow: View {
+struct IssueRowView: View {
     @EnvironmentObject var dataController: DataController
     @ObservedObject var issue: Issue
     
@@ -23,7 +23,7 @@ struct IssueRow: View {
                         .font(.headline)
                         .lineLimit(1)
                     
-                    Text("No tags")
+                    Text(issue.issueTagsList)
                         .foregroundStyle(.secondary)
                         .lineLimit(1)
                 }
@@ -46,6 +46,6 @@ struct IssueRow: View {
 
 struct IssueRow_Previews: PreviewProvider {
     static var previews: some View {
-        IssueRow(issue: .example)
+        IssueRowView(issue: .example)
     }
 }

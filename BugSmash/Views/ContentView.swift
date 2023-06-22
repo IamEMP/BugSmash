@@ -25,9 +25,9 @@ struct ContentView: View {
     }
     
     var body: some View {
-        List {
+        List(selection: $dataController.selectedIssue) {
             ForEach(issues) { issue in
-                IssueRow(issue: issue)
+                IssueRowView(issue: issue)
             }
             .onDelete(perform: delete)
         }
